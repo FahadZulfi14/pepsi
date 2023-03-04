@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    text-transform: uppercase;
+    background-color: #0065c3;
+    padding: 10px;
+    color: white;
+
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.navbar-item{
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.navbar-right .navbar-item{
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 5px 25px;
+
+}
+
+.product{
+    background-image: url('image/Desktop_Background1.png');
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product-item img{
+    max-width: 60%;
+    padding: 20px;
+}
+
+
+.product-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-item-colum{
+    flex-direction: column;
+}
+.product-text{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+.product-button{
+    color: white;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 5px 35px;
+    margin-top: 20px;
+}
+
+.product2{
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product2-item img{
+    max-width: 80%;
+    padding: 0px;  
+}
+
+#icon{
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 350px;
+}
+
+.product2-item{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.product2-item-colum{
+    flex-direction: column;
+    width: 79.439vw;
+    max-width: 485px;
+    margin-top: 9.692vw;
+}
+
+.product2-video{
+    margin-top: 100px;
+}
+
+
+.section3{
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.section3{
+    background-image: url('image/Desktop_Background1.png');
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.section3-item img{
+    max-width: 90%;
+    padding: 5px;
+}
+
+
+.section3-item{
+    display: flex;
+    justify-content:flex-start;
+    
+}
+
+.section3-item-colum{
+    flex-direction: column;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background:#0065c3;
+    color: white;
+    margin: 0;;
+    padding: 50px 0px;
+} 
+.footer li{
+    font-family: Sofia Pro Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    list-style: none;
+}
+
+
+.footer-item{
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 5px 25px;
+    
+}
